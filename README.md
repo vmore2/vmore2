@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Vrushket%20More&fontSize=60&fontColor=ffffff&animation=fadeIn&stroke=00d4ff&strokeWidth=1" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:0a192f,100:112240&height=200&section=header&text=Vrushket%20More&fontSize=60&fontColor=ffffff&animation=fadeIn&stroke=00d4ff&strokeWidth=1" width="100%"/>
 
 <br/>
 
@@ -20,7 +20,7 @@
 
 <br/>
 
-I build production-grade AI systems — agent frameworks with deterministic replay, audiobook pipelines with emotion-aware voice synthesis, and quantum-classical hybrids for agent safety. First-author on published healthcare AI research.
+I build production-grade AI systems: agent frameworks with deterministic replay, audiobook pipelines with emotion-aware voice synthesis, and quantum-classical hybrids for agent safety. First-author on published healthcare AI research.
 
 Currently pursuing my **MS in Computer Science** at SUNY Binghamton **(3.87 GPA)**.
 
@@ -41,11 +41,11 @@ Currently pursuing my **MS in Computer Science** at SUNY Binghamton **(3.87 GPA)
 <table>
 <tr><td>
 
-### &ensp;🏅&ensp; AgentRank &ensp;—&ensp; *Temporal Embeddings for Agent Memory*
+### &ensp;🏅&ensp; AgentRank &ensp;·&ensp; *Temporal Embeddings for Agent Memory*
 
 &ensp; [![PyPI](https://img.shields.io/pypi/v/agentrank?style=flat-square&logo=pypi&logoColor=white&color=3775A9)](https://pypi.org/project/agentrank/) &ensp; [![HF](https://img.shields.io/badge/🤗_Model-agentrank--base-FFD21E?style=flat-square)](https://huggingface.co/vrushket/agentrank-base) &ensp; [![GitHub](https://img.shields.io/badge/Code-AgentRank-181717?style=flat-square&logo=github)](https://github.com/vmore2/AgentRank-base)
 
-**The first embedding model that encodes *when* memories happened — not just *what* they contain.**
+**The first embedding model that encodes *when* memories happened, not just *what* they contain.**
 
 A novel architecture that fuses temporal recency directly into the embedding space, enabling AI agents to retrieve contextually accurate memories from long-running conversations. Published on PyPI and HuggingFace.
 
@@ -62,7 +62,7 @@ A novel architecture that fuses temporal recency directly into the embedding spa
 <table>
 <tr><td>
 
-### &ensp;🔬&ensp; TheraMind &ensp;—&ensp; *Multi-Agent Healthcare AI* &ensp; `First Author`
+### &ensp;🔬&ensp; TheraMind &ensp;·&ensp; *Multi-Agent Healthcare AI* &ensp; `First Author`
 
 &ensp; [![Paper](https://img.shields.io/badge/📄_Preprint-Research_Square-e74c3c?style=flat-square)](https://doi.org/10.21203/rs.3.rs-6787930/v1)
 
@@ -88,10 +88,10 @@ Chains specialized LLM agents for extraction, classification, and validation acr
 
 Total observability for LLM workflows. Every run is a replayable event log.
 
-- **Deterministic Replay** — O(1) cost, zero API calls
-- **Time-Travel Fork** — edit step N, go live from N+1
-- **Failure Memory** — agents learn from mistakes
-- **Event System** — Pydantic → SQLite → OTel
+- **Deterministic Replay** · O(1) cost, zero API calls
+- **Time-Travel Fork** · edit step N, go live from N+1
+- **Failure Memory** · agents learn from mistakes
+- **Event System** · Pydantic → SQLite → OTel
 
 ```python
 from runtimex import Agent, LiteLLMModel
@@ -107,10 +107,10 @@ result = agent.run_sync("Summarise CHANGELOG.md")
 
 Transforms raw EPUBs into studio-quality, multi-voice audiobooks. Fully automated.
 
-- **Multi-Voice TTS** — distinct OpenAI voices per character
-- **Emotion Mapping** — joy, fear, tension, sadness, neutral
-- **Dialogue Attribution** — implicit speaker detection via LLM
-- **Interactive UI** — Streamlit playback & annotation
+- **Multi-Voice TTS** · distinct OpenAI voices per character
+- **Emotion Mapping** · joy, fear, tension, sadness, neutral
+- **Dialogue Attribution** · implicit speaker detection via LLM
+- **Interactive UI** · Streamlit playback & annotation
 
 `LangGraph` · `Gemini 2.5 Pro` · `OpenAI TTS`
 
@@ -153,7 +153,7 @@ Fuses **SAM 2 + Depth Anything V2 + CLIP** for per-object depth estimation and z
 
 | Project | What it does | Stack |
 |:---|:---|:---|
-| [**CogniHive**](https://github.com/vmore2/CogniHive) | Transactive memory for AI agent teams — "who knows what" routing | Multi-Agent · RAG · AgentRank |
+| [**CogniHive**](https://github.com/vmore2/CogniHive) | Transactive memory for AI agent teams, "who knows what" routing | Multi-Agent · RAG · AgentRank |
 | [**FinFlow**](https://github.com/vmore2/Finflow) | Automated financial intelligence pipeline with trading signals | Apache Airflow · ETL |
 | [**Self-Driving Car**](https://github.com/vmore2/Self-Driving-Car) | Real-time lane detection & vehicle classification (98% precision) | OpenCV · SVM |
 | [**DermWise**](https://github.com/Vrushket/DermWise) | AI dermatology diagnostic assistant | Deep Learning · CV |
