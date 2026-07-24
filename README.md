@@ -22,7 +22,7 @@
 
 I build production-grade AI systems: agent frameworks with deterministic replay, audiobook pipelines with emotion-aware voice synthesis, and quantum-classical hybrids for agent safety. First-author on published healthcare AI research.
 
-Currently pursuing my **MS in Computer Science** at SUNY Binghamton **(3.87 GPA)**.
+Graduating **December 2026** with my **MS in Computer Science** from SUNY Binghamton **(3.87 GPA)**.
 
 <br/>
 
